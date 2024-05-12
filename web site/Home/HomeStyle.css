@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1500px;
+}
+
+nav {
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    display: inline-block;
+    padding: 20px 10px 10px 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    padding: 50px 150px 10px 10px;
+}
+
+.button {
+    width: 10rem;
+    height: 3em;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.container2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh; /* ทำให้ความสูงเต็มหน้าจอ */
+}
+
+.chose img{
+    max-width: 100%; /* รูปจะไม่เกินขอบหน้าจอ */
+    height: 100%; /* รักษาอัตราส่วน */
+    float: left;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+section{
+    background-color: #ffffff;
+    padding: 10px 10px 100px 10px;
+}
